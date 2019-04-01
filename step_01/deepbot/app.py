@@ -17,7 +17,6 @@ def index():
 
 @app.route('/chatting', methods=['GET', 'POST'])
 def chatting():
-    okt = Okt()
     message = request.json['message']
     return jsonify({'message': message})
 
