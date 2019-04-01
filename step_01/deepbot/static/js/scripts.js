@@ -5,13 +5,13 @@ window.onload = function() {
     var messagetmp = ""
 
     var synthesis = window.speechSynthesis
-    var voices = synthesis.getVoices()
 
     // 설명
     var utterance = new SpeechSynthesisUtterance()
 
     utterance.text = message
     utterance.lang = 'ko-KR' // 언어 지정; 영어 -> 'en-US'
+    // utterance.lang = 'en-US' // 언어 지정; 영어 -> 'en-US'
     utterance.volume = "1" // 소리 크기 값; 최소값: 0, 최댓값: 1
     utterance.pitch = "1" // 음높이, 음의 고저의 정도; 최솟값: 0, 최댓값: 2
     utterance.rate = "1" // 속도; 최솟값: 0.1, 최댓값: 10
@@ -19,7 +19,8 @@ window.onload = function() {
     // 음성 인식 객체 생성
     var recognition = new(window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)()
 
-    recognition.lang = 'ko-KR' // 언어 지정; 영어 -> 'en-US'
+    recognition.lang = 'ko-KR' // 언어 지정;
+    // recognition.lang = 'en-US' // 언어 지정; 영어 -> 'en-US' 영어 -> 'en-US'
     recognition.interimResults = false // 음성인식 중간에 결과를 반환할지 여부
     recognition.continuous = false // 음성인식에 대해 연속 결과를 반환할지 여부
     recognition.maxAlternatives = 1 // 음성인식 결과 최대 수; 기본 값: 1
