@@ -27,6 +27,11 @@
 
 - [Mac OSX에서 NLTK Data 설치하기](http://corazzon.github.io/nltk_data_install)
 
+### Python virtualenv
+
+- [Python virtualenv(Linux/Windows)](https://dgkim5360.tistory.com/entry/python-virtualenv-on-linux-ubuntu-and-windows)
+
+
 ### Colab 사용하기
 
 - [CoLab 가이드](https://zzsza.github.io/data/2018/08/30/google-colab/)
