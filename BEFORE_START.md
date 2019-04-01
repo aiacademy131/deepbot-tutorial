@@ -11,9 +11,10 @@
 ### Heroku 계정생성
 
 [Heroku 계정생성](https://www.heroku.com/)
-
+[Heroku 설치](https://devcenter.heroku.com/articles/heroku-cli)
 
 ### 딥러닝 기초학습
+
 [머신러닝 딥러닝 단기집중과정](https://developers.google.com/machine-learning/crash-course/?hl=ko)
 
 ### Konlpy 설치
